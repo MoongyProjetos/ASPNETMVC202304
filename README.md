@@ -6,6 +6,7 @@
 
 
 2. Aula 02 - Planejamento da nossa aplicação e Controladores / Controllers
+- Aplicação: Biblioteca / Empréstimos de Livros 
 - https://learn.microsoft.com/pt-br/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-7.0
 - https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
 - Azure Free (pede cartão de crédito, cuidado!): https://azure.microsoft.com/en-us/free/
