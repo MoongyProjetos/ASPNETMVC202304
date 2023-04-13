@@ -5,6 +5,7 @@
     [Editora]       VARCHAR (10)  NULL,
     [BibliotecaId]  INT           NOT NULL,
     [NumeroPaginas] INT           DEFAULT ((0)) NULL,
+    [Isbn] VARCHAR(14) NULL
     PRIMARY KEY CLUSTERED ([Id] ASC),
     FOREIGN KEY ([BibliotecaId]) REFERENCES [dbo].[Biblioteca] ([Id])
 );
