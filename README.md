@@ -16,3 +16,12 @@
 ![Estrutura base do MVC](https://qph.cf2.quoracdn.net/main-qimg-3736ee98eff0c8148e2372d2b693f0ce)
 
 ![Request/Response](https://www.ryadel.com/wp-content/uploads/2018/06/http-request-response-flow-diagram.png)
+
+
+3. Database First
+
+
+4. Inicio do CodeFirst - Migrations
+- Model : https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-7.0&tabs=visual-studio
+
+

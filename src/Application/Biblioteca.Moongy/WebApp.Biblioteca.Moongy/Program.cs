@@ -1,9 +1,20 @@
+using Microsoft.EntityFrameworkCore;
+using WebApp.Biblioteca.Moongy.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
+
+builder.Services.AddDbContext<BibliotecaContext>(options =>
+    options.UseSqlServer(@"Server=(localdb)\MSSQLlocalDB;Database=Moongy.Biblioteca.DBCodeFirst;Trusted_Connection=True;"));
+
+
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
