@@ -19,9 +19,12 @@
 
 
 3. Database First
+- https://youtu.be/cCJsFxA5SAc
 
 
 4. Inicio do CodeFirst - Migrations
 - Model : https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-7.0&tabs=visual-studio
+- https://youtu.be/CIjGio5PJHo
 
-
+5. Continuação do Code First com Model
+- https://youtu.be/MP_i9RgYA3o
