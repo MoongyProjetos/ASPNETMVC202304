@@ -11,7 +11,7 @@ public class Validador
         if (valor.Distinct().Count() == 1)
         {
             return false;
-        }
+        }  
 
         var valoresAceitosNoInicio = new List<char> { '1', '2', '3', '4', '5' };
         if (!valoresAceitosNoInicio.Contains(valor[0]))
