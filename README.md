@@ -28,3 +28,13 @@
 
 5. Continuação do Code First com Model
 - https://youtu.be/MP_i9RgYA3o
+
+6. Testes Automatizados
+- https://youtu.be/2BC9BtsThA8
+
+7. WebApi
+- https://dotnet.microsoft.com/pt-br/apps/aspnet/apis
+- https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
+- https://petstore.swagger.io/
+- https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0
+- https://learn.microsoft.com/pt-br/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio
