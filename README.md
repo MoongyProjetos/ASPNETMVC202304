@@ -30,6 +30,9 @@
 - https://youtu.be/MP_i9RgYA3o
 
 6. Testes Automatizados
+- https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test
+- https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-best-practices
+- https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-code-coverage?tabs=windows
 - https://youtu.be/2BC9BtsThA8
 
 7. WebApi
@@ -39,3 +42,13 @@
 - https://petstore.swagger.io/
 - https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0
 - https://learn.microsoft.com/pt-br/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio
+- https://youtu.be/1nthGxyrvSo
+
+8. Estratégias de Publicação
+- https://azure.microsoft.com/pt-br/free/
+- https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming
+- https://youtu.be/VOU9h4AjPWE
+- Tenant
+    - Subscricoes / Subscriptions
+        - Resource Groups
+            -  WebApps/SQLServer/...
