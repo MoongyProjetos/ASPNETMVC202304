@@ -23,38 +23,43 @@
 
 
 4. Inicio do CodeFirst - Migrations
-- Model : https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-7.0&tabs=visual-studio
 - https://youtu.be/CIjGio5PJHo
+- Model : https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-7.0&tabs=visual-studio
 
-5. Continuação do Code First com Model
+
+1. Continuação do Code First com Model
 - https://youtu.be/MP_i9RgYA3o
 
-6. Testes Automatizados
+1. Testes Automatizados
+- https://youtu.be/2BC9BtsThA8
 - https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test
 - https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-best-practices
 - https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-code-coverage?tabs=windows
-- https://youtu.be/2BC9BtsThA8
 
-7. WebApi
+
+1. WebApi
+- https://youtu.be/1nthGxyrvSo
 - https://dotnet.microsoft.com/pt-br/apps/aspnet/apis
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods 
 - https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
 - https://petstore.swagger.io/
 - https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0
 - https://learn.microsoft.com/pt-br/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio
-- https://youtu.be/1nthGxyrvSo
 
-8. Estratégias de Publicação
+
+1. Estratégias de Publicação
+- https://youtu.be/VOU9h4AjPWE
 - https://azure.microsoft.com/pt-br/free/
 - https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming
-- https://youtu.be/VOU9h4AjPWE
+
 - Tenant
     - Subscricoes / Subscriptions
         - Resource Groups
             -  WebApps/SQLServer/...
 
 
-9. Introdução às Views
+1. Introdução às Views
+- https://youtu.be/W-DCQQVYvAE
 - https://dotnet.microsoft.com/pt-br/apps/aspnet/mvc
 - https://learn.microsoft.com/pt-br/aspnet/core/mvc/views/overview?WT.mc_id=dotnet-35129-website&view=aspnetcore-6.0
 - Bootstrap: https://getbootstrap.com/docs/5.3/examples/
