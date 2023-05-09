@@ -27,17 +27,17 @@
 - Model : https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-7.0&tabs=visual-studio
 
 
-1. Continuação do Code First com Model
+5. Continuação do Code First com Model
 - https://youtu.be/MP_i9RgYA3o
 
-1. Testes Automatizados
+6. Testes Automatizados
 - https://youtu.be/2BC9BtsThA8
 - https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test
 - https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-best-practices
 - https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-code-coverage?tabs=windows
 
 
-1. WebApi
+7. WebApi
 - https://youtu.be/1nthGxyrvSo
 - https://dotnet.microsoft.com/pt-br/apps/aspnet/apis
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods 
@@ -47,7 +47,7 @@
 - https://learn.microsoft.com/pt-br/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio
 
 
-1. Estratégias de Publicação
+8. Estratégias de Publicação
 - https://youtu.be/VOU9h4AjPWE
 - https://azure.microsoft.com/pt-br/free/
 - https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming
@@ -58,7 +58,7 @@
             -  WebApps/SQLServer/...
 
 
-1. Introdução às Views
+9. Introdução às Views
 - https://youtu.be/W-DCQQVYvAE
 - https://dotnet.microsoft.com/pt-br/apps/aspnet/mvc
 - https://learn.microsoft.com/pt-br/aspnet/core/mvc/views/overview?WT.mc_id=dotnet-35129-website&view=aspnetcore-6.0
@@ -66,3 +66,16 @@
 - https://themes.getbootstrap.com/
 - https://bootswatch.com/
 - https://www.csszengarden.com/
+
+10. Componentes e continuação das Views
+- Ops... Vídeo Corrompido
+- 
+
+11. Blazor
+- https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/
+- https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor
+- https://www.macoratti.net/20/02/blz_efccrud1.htm
+- https://www.htmlelements.com/docs/blazor-web-assembly-crud/
+- https://www.macoratti.net/18/05/net_blazor1.htm
+- https://webassembly.org/
+- https://balta.io/blog/blazor-e-o-futuro-da-web
