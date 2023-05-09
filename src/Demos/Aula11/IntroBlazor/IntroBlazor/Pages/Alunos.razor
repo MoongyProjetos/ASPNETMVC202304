@@ -1,0 +1,50 @@
+﻿@page "/alunos"
+@using IntroBlazor.Data.Model;
+@using System.Text.Json;
+@inject HttpClient http
+<h3>Alunos</h3>
+<p>
+    <a href="/addaluno">Criar Novo Aluno</a>
+</p>
+@if (alunos == null)
+{
+    <img src="/imagens/basicloader.gif" />
+}
+else
+{
+    <table class='table'>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var aluno in alunos)
+            {
+                <tr>
+                    <td>@aluno.Nome</td>
+                    <td>@aluno.Email</td>
+                    <td>@aluno.Idade</td>
+                    <td>
+                        <a href='/editaluno/@aluno.EstudanteId'>Edita</a>
+                        <a href='/deletealuno/@aluno.EstudanteId'>Deleta</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+    List<Estudante> alunos;
+    protected override async Task OnInitializedAsync()
+    {
+        var alunosString = await http.GetStringAsync("/api/estudante");
+        var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+        alunos = System.Text.Json.JsonSerializer.Deserialize<List<Estudante>>(alunosString, options);
+    }
+} 

@@ -88,4 +88,5 @@
 - https://www.macoratti.net/18/05/net_blazor1.htm
 - https://webassembly.org/
 - https://balta.io/blog/blazor-e-o-futuro-da-web
+- https://sourcemaking.com/design_patterns
 - https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula11
