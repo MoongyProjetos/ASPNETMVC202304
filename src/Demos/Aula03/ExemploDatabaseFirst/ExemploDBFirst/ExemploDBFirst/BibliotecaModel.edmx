@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Moongy.Biblioteca.DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Biblioteca">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nome" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Endereco" Type="varchar" MaxLength="250" />
+          <Property Name="Telefone" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Livros">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nome" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Autor" Type="varchar" MaxLength="250" />
+          <Property Name="Editora" Type="varchar" MaxLength="10" />
+          <Property Name="BibliotecaId" Type="int" Nullable="false" />
+          <Property Name="NumeroPaginas" Type="int" />
+        </EntityType>
+        <Association Name="FK__Livros__Bibliote__2C3393D0">
+          <End Role="Biblioteca" Type="Self.Biblioteca" Multiplicity="1" />
+          <End Role="Livros" Type="Self.Livros" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Biblioteca">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Livros">
+              <PropertyRef Name="BibliotecaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MoongyBibliotecaDatabaseModelStoreContainer">
+          <EntitySet Name="Biblioteca" EntityType="Self.Biblioteca" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Livros" EntityType="Self.Livros" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Livros__Bibliote__2C3393D0" Association="Self.FK__Livros__Bibliote__2C3393D0">
+            <End Role="Biblioteca" EntitySet="Biblioteca" />
+            <End Role="Livros" EntitySet="Livros" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Moongy.Biblioteca.DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Biblioteca">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Endereco" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="Telefone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Livros" Relationship="Self.FK__Livros__Bibliote__2C3393D0" FromRole="Biblioteca" ToRole="Livros" />
+        </EntityType>
+        <EntityType Name="Livros">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Autor" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="Editora" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="BibliotecaId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Biblioteca" Relationship="Self.FK__Livros__Bibliote__2C3393D0" FromRole="Livros" ToRole="Biblioteca" />
+          <Property Name="NumeroPaginas" Type="Int32" />
+        </EntityType>
+        <Association Name="FK__Livros__Bibliote__2C3393D0">
+          <End Role="Biblioteca" Type="Self.Biblioteca" Multiplicity="1" />
+          <End Role="Livros" Type="Self.Livros" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Biblioteca">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Livros">
+              <PropertyRef Name="BibliotecaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BibliotecaDB" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Biblioteca" EntityType="Self.Biblioteca" />
+          <EntitySet Name="Livros" EntityType="Self.Livros" />
+          <AssociationSet Name="FK__Livros__Bibliote__2C3393D0" Association="Self.FK__Livros__Bibliote__2C3393D0">
+            <End Role="Biblioteca" EntitySet="Biblioteca" />
+            <End Role="Livros" EntitySet="Livros" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MoongyBibliotecaDatabaseModelStoreContainer" CdmEntityContainer="BibliotecaDB">
+          <EntitySetMapping Name="Biblioteca">
+            <EntityTypeMapping TypeName="Moongy.Biblioteca.DatabaseModel.Biblioteca">
+              <MappingFragment StoreEntitySet="Biblioteca">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+                <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Livros">
+            <EntityTypeMapping TypeName="Moongy.Biblioteca.DatabaseModel.Livros">
+              <MappingFragment StoreEntitySet="Livros">
+                <ScalarProperty Name="NumeroPaginas" ColumnName="NumeroPaginas" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="Autor" ColumnName="Autor" />
+                <ScalarProperty Name="Editora" ColumnName="Editora" />
+                <ScalarProperty Name="BibliotecaId" ColumnName="BibliotecaId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

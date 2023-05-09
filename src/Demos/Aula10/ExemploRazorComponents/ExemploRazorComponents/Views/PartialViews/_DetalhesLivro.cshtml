@@ -1,0 +1,28 @@
+﻿@model Modelo.Livro
+
+<div class="alert alert-dismissible alert-warning">
+    <form>
+        <fieldset>
+            <legend>Livro Novo!!!</legend>
+            <hr />
+
+            <div class="form-group">
+                @Html.DisplayNameFor(model => model.Id)
+                @Html.DisplayFor(model => model.Id, new { @class = "form-control"} )
+            </div>
+            <div class="form-group">
+                @Html.DisplayNameFor(model => model.Nome)
+                @Html.DisplayFor(model => model.Nome, new { @class = "form-control"} )
+            </div>
+
+            <div class="form-group">
+                @Html.DisplayNameFor(model => model.DataLancamento)
+                @Html.DisplayFor(model => model.DataLancamento, new { @class = "form-control"} )
+            </div>
+            <div class="form-group">
+                <img src=@Model.UrlDaCapa style="width:35px;" alt=@Model.Nome> 
+            </div>
+
+        </fieldset>
+    </form>
+</div>
