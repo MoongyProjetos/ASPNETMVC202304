@@ -2,6 +2,7 @@
 
 ## 1. 04/04/2023 - Aula 01 - Apresentação do Curso
 - **[Material Base]** https://dotnet.microsoft.com/pt-br/apps/aspnet/mvc
+![MVC](https://dotnet.microsoft.com/static/images/illustrations/swimlane-model-view-controller.svg?v=CzUv-GDiU6YsHcGrR3M_-rs-39bc2dpjl22uAT5Br2Q)
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula01
 - https://github.com/MoongyProjetos/ASPNETMVC202304
 
@@ -69,6 +70,8 @@
 - https://themes.getbootstrap.com/
 - https://bootswatch.com/
 - https://www.csszengarden.com/
+![Views](https://dotnet.microsoft.com/static/images/screenshot-razor-editor-vs.png)
+
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula09
 
 ## 10. 06/05/2023 - Componentes e continuação das Views
