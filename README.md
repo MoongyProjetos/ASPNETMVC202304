@@ -77,7 +77,7 @@
 
 11. 09/05/2023 - Introdução ao Blazor
 - **[Gravação da Aula]** https://youtu.be/725I7Fwrk9I
-- - **[Material Base]** https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro
+- **[Material Base]** https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro
 - https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/
 - https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor
 - https://www.macoratti.net/20/02/blz_efccrud1.htm
