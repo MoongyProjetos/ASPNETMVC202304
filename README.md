@@ -58,7 +58,7 @@
 - **[Material Base]** https://azure.microsoft.com/pt-br/free/
 - https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming 
 > **Importante:_**  Tenant >> Subscricoes / Subscriptions >> Resource Groups >> WebApps/SQLServer/...
-**[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula08           
+- **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula08           
 
 
 9. 04/05/2023 - Introdução às Views
