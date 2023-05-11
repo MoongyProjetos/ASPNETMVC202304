@@ -351,3 +351,6 @@ MigrationBackup/
 /src/Pizzaria.Blazor/BlazingPizza/Data/pizza.db
 /src/Pizzaria.Blazor/BlazingPizza/Data/pizza.db-wal
 /src/Pizzaria.Blazor/BlazingPizza/Data/pizza.db-shm
+/src/Pizzaria.Blazor/BlazingPizza/Data/pizza.db-wal
+/src/Pizzaria.Blazor/BlazingPizza/Data/pizza.db-shm
+/src/Pizzaria.Blazor/BlazingPizza/Data/pizza.db
