@@ -6,7 +6,7 @@
 - https://github.com/MoongyProjetos/ASPNETMVC202304
 
 
-## 2. 06/04/2023 - Aula 02 - Planejamento da nossa aplicação e Controladores / Controllers
+## 2. 06/04/2023 - Aula 02 - Planejamento da nossa aplicação e Controllers
 - **[Material Base]** https://learn.microsoft.com/pt-br/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-7.0
 - Aplicação: Biblioteca / Empréstimos de Livros 
 - https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
