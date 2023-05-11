@@ -75,12 +75,12 @@
 - https://www.csszengarden.com/
 - https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula09
 
-10. 06/04/2023 - Componentes e continuação das Views
+10. 06/05/2023 - Componentes e continuação das Views
 - Ops... Vídeo Corrompido
 - https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula10
 
-11. 09/04/2023 - Introdução ao Blazor
-- https://youtu.be/725I7Fwrk9I
+11. 09/05/2023 - Introdução ao Blazor
+- [Gravação da Aula] https://youtu.be/725I7Fwrk9I
 - https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro
 - https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/
 - https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor
@@ -91,3 +91,9 @@
 - https://balta.io/blog/blazor-e-o-futuro-da-web
 - https://sourcemaking.com/design_patterns
 - https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula11 
+
+12. 11/05/2023 - Continuação Blazor > WorkShop Pizzaria
+- [Gravação da Aula]
+- Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
+- Workshop avançado: https://github.com/dotnet-presentations/blazor-workshop/
+- > **Importante:_**  Você pode manipular o DOM usando o código JavaScript de um manipulador de eventos, bem como usar o código Blazor C#. No entanto, o Blazor mantém sua própria cópia do DOM, que é usada para atualizar a interface do usuário quando necessário. Se você usar o código JavaScript e o Blazor para alterar os mesmos elementos no DOM, correrá o risco de corromper o DOM e possivelmente comprometer a privacidade e a segurança dos dados em seu aplicativo Web.
