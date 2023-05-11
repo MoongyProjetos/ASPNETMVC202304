@@ -1,12 +1,12 @@
 # ASP.NET MVC 2023 04
 
-1. 04/04/2023 - Aula 01 - Apresentação do Curso
+## 1. 04/04/2023 - Aula 01 - Apresentação do Curso
 - **[Material Base]** https://dotnet.microsoft.com/pt-br/apps/aspnet/mvc
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula01
 - https://github.com/MoongyProjetos/ASPNETMVC202304
 
 
-2. 06/04/2023 - Aula 02 - Planejamento da nossa aplicação e Controladores / Controllers
+## 2. 06/04/2023 - Aula 02 - Planejamento da nossa aplicação e Controladores / Controllers
 - **[Material Base]** https://learn.microsoft.com/pt-br/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-7.0
 - Aplicação: Biblioteca / Empréstimos de Livros 
 - https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
@@ -21,28 +21,28 @@
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula02
 
 
-3. 11/04/2023 - Database First
+## 3. 11/04/2023 - Database First
 - **[Gravação da Aula]** https://youtu.be/cCJsFxA5SAc
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula03
 
 
-4. 13/04/2023 - Inicio do CodeFirst - Migrations
+## 4. 13/04/2023 - Inicio do CodeFirst - Migrations
 - **[Gravação da Aula]** https://youtu.be/CIjGio5PJHo
 - **[Material Base]** https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-7.0&tabs=visual-studio
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula04
 
-5. 18/04/2023 - Continuação do Code First com Model
+## 5. 18/04/2023 - Continuação do Code First com Model
 - **[Gravação da Aula]** https://youtu.be/MP_i9RgYA3o
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula05
 
-6. 20/04/2023 - Testes Automatizados
+## 6. 20/04/2023 - Testes Automatizados
 - **[Gravação da Aula]** https://youtu.be/2BC9BtsThA8
 -  **[Material Base]** https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test
 - https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-best-practices
 - https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-code-coverage?tabs=windows
 -  **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula06
 
-7. 27/04/2023 - WebApi
+## 7. 27/04/2023 - WebApi
 - **[Gravação da Aula]** https://youtu.be/1nthGxyrvSo
 - **[Material Base]** https://dotnet.microsoft.com/pt-br/apps/aspnet/apis
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods 
@@ -53,7 +53,7 @@
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula07
 
 
-8. 02/05/2023 - Estratégias de Publicação
+## 8. 02/05/2023 - Estratégias de Publicação
 - **[Gravação da Aula]** https://youtu.be/VOU9h4AjPWE
 - **[Material Base]** https://azure.microsoft.com/pt-br/free/
 - https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming 
@@ -61,7 +61,7 @@
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula08           
 
 
-9. 04/05/2023 - Introdução às Views
+## 9. 04/05/2023 - Introdução às Views
 - **[Gravação da Aula]** https://youtu.be/W-DCQQVYvAE
 - **[Material Base]** https://learn.microsoft.com/pt-br/aspnet/core/mvc/views/overview?WT.mc_id=dotnet-35129-website&view=aspnetcore-6.0
 - https://dotnet.microsoft.com/pt-br/apps/aspnet/mvc
@@ -71,11 +71,11 @@
 - https://www.csszengarden.com/
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula09
 
-10. 06/05/2023 - Componentes e continuação das Views
+## 10. 06/05/2023 - Componentes e continuação das Views
 - **[Gravação da Aula]** Ops... Vídeo Corrompido
 - **[Respositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula10
 
-11. 09/05/2023 - Introdução ao Blazor
+## 11. 09/05/2023 - Introdução ao Blazor
 - **[Gravação da Aula]** https://youtu.be/725I7Fwrk9I
 - **[Material Base]** https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro
 - https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/
@@ -88,7 +88,7 @@
 - https://sourcemaking.com/design_patterns
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula11 
 
-12. 11/05/2023 - Continuação Blazor > WorkShop Pizzaria
+## 12. 11/05/2023 - Continuação Blazor > WorkShop Pizzaria
 - **[Gravação da Aula]** 
 - Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
 - Workshop avançado: https://github.com/dotnet-presentations/blazor-workshop/
