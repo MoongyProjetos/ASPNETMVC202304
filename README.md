@@ -90,7 +90,8 @@
 
 ## 12. 11/05/2023 - Continuação Blazor > WorkShop Pizzaria
 - **[Gravação da Aula]** 
-- Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
+- **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
+- **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
 - Workshop avançado: https://github.com/dotnet-presentations/blazor-workshop/
 > **Importante:_**  Você pode manipular o DOM usando o código JavaScript de um manipulador de eventos, bem como usar o código Blazor C#. No entanto, o Blazor mantém sua própria cópia do DOM, que é usada para atualizar a interface do usuário quando necessário. Se você usar o código JavaScript e o Blazor para alterar os mesmos elementos no DOM, correrá o risco de corromper o DOM e possivelmente comprometer a privacidade e a segurança dos dados em seu aplicativo Web.
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula12 
