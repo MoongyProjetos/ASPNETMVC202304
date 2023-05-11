@@ -92,7 +92,7 @@
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula11 
 
 ## 12. 11/05/2023 - Continuação Blazor > WorkShop Pizzaria
-- **[Gravação da Aula]** 
+- **[Gravação da Aula]** https://youtu.be/4GCBHqwFJCY
 - **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
 - **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
 ![PizzariaBlazor](https://learn.microsoft.com/pt-br/training/aspnetcore/use-pages-routing-layouts-control-blazor-navigation/media/webpage-using-blazor-main-layout.png)
@@ -103,3 +103,9 @@
 
 -- Paramos aqui:
 https://learn.microsoft.com/pt-br/training/modules/use-pages-routing-layouts-control-blazor-navigation/3-exercise-change-navigation-blazor-using-page-directive?ns-enrollment-type=learningpath&ns-enrollment-id=learn.aspnet.build-blazor-webapps
+
+
+## 13. 16/05/2023 - Continuação Blazor > WorkShop Pizzaria
+- **[Gravação da Aula]** 
+- **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
+- **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
