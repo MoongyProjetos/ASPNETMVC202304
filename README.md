@@ -99,3 +99,7 @@
 - Workshop avançado: https://github.com/dotnet-presentations/blazor-workshop/
 > **Importante:_**  Você pode manipular o DOM usando o código JavaScript de um manipulador de eventos, bem como usar o código Blazor C#. No entanto, o Blazor mantém sua própria cópia do DOM, que é usada para atualizar a interface do usuário quando necessário. Se você usar o código JavaScript e o Blazor para alterar os mesmos elementos no DOM, correrá o risco de corromper o DOM e possivelmente comprometer a privacidade e a segurança dos dados em seu aplicativo Web.
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula12 
+
+
+-- Paramos aqui:
+https://learn.microsoft.com/pt-br/training/modules/use-pages-routing-layouts-control-blazor-navigation/3-exercise-change-navigation-blazor-using-page-directive?ns-enrollment-type=learningpath&ns-enrollment-id=learn.aspnet.build-blazor-webapps
