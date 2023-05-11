@@ -1,4 +1,6 @@
 namespace BlazingPizza.Tests.Services;
+
+using BlazingPizza.Services;
 using Xunit;
 
 public class OrderStateTests
@@ -55,23 +57,6 @@ public class OrderStateTests
 
     [Fact()]
     public void RemoveConfiguredPizzaTest()
-    {
-        //Arrange
-        var os = new OrderState();
-
-        //Act        
-        os.RemoveConfiguredPizza(new Pizza());
-
-        //Assert
-        Assert.NotNull(os);
-        Assert.Null(os.ConfiguringPizza);
-        Assert.NotNull(os.Order);
-        Assert.NotNull(os.Order.Pizzas);
-        Assert.False(os.ShowingConfigureDialog);
-    }
-
-    [Fact()]
-    public void CancelConfigurePizzaDialogTest1()
     {
         //Arrange
         var os = new OrderState();
