@@ -102,7 +102,7 @@
 
 
 ## 13. 16/05/2023 - Continuação Blazor > WorkShop Pizzaria
-- **[Gravação da Aula]** 
+- **[Gravação da Aula]** https://youtu.be/3Lcrog5NBGA
 - **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
 - **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
 - # Parametros de Rota:
