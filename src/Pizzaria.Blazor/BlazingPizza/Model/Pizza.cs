@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
 namespace BlazingPizza
@@ -19,6 +20,7 @@ namespace BlazingPizza
         public PizzaSpecial Special { get; set; }
 
         public int SpecialId { get; set; }
+
 
         public int Size { get; set; }
 
