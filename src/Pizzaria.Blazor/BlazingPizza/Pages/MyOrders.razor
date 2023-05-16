@@ -6,8 +6,6 @@
 
 
 
-<BarraNavegacao Posicao="3"/>
-
 <div class="main">
     @if (ordersWithStatus == null)
     {
@@ -34,12 +32,11 @@
                     <div class="col">
                         Status: <strong>@item.StatusText</strong>
                     </div>
-                    @if (@item.StatusText != "Delivered")
+                    @if (@item.StatusText != "Delivered8")
                     {
                         <div class="col flex-grow-0">
-                            <a href="myorders/" class="btn btn-success">
-                                Track &gt;
-                            </a>
+                            <a href="myorders/@item.Order.OrderId" class="btn btn-success">
+                                </a>
                         </div>
                     }
                 </div>
