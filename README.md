@@ -107,7 +107,6 @@
 - **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
 - # Parametros de Rota:
 
-
     ```csharp
     @page "/FavoritePizzas/{favorite}"
 
@@ -122,5 +121,9 @@
     ```
 
 
-
 > **Importante:_**  O Blazor mantém sua própria representação do DOM (Modelo de Objeto do Documento) como uma árvore de renderização virtual. Conforme a estrutura da página muda, o Blazor gera uma nova árvore de renderização que contém as diferenças. Quando as alterações são concluídas, o Blazor itera por meio dessas diferenças para atualizar a interface do usuário exibida pelo Navegador e a versão do Navegador do DOM usada pelo JavaScript. Se o código JavaScript modificar elementos do DOM, a representação Blazor poderá não corresponder mais ao estado atual. Isso pode resultar em comportamento inesperado e, possivelmente, introduzir riscos de segurança.
+
+- Paramos aqui: 
+https://learn.microsoft.com/pt-br/training/modules/blazor-improve-how-forms-work/2-attach-csharp-code-dom-events-blazor-event-handlers
+
+- O professor ficou de verificar o Google Analytics 

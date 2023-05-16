@@ -1,0 +1,26 @@
+@page "/counterJavaScriptComplicado"
+@inject IJSRuntime JS
+
+
+<h1>Counter Java Script</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick='mouseEvent => HandleClick(mouseEvent, "Oi Povo")'>Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private async Task HandleClick(MouseEventArgs e, string msg)
+    {
+        if (e.AltKey) // Ctrl key pressed as well
+        {
+            await JS.InvokeVoidAsync("OlaMundoComplicada", msg);
+            currentCount += 5;
+        }
+        else
+        {
+            currentCount++;
+        }
+    }
+}
