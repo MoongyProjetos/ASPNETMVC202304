@@ -101,10 +101,6 @@
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula12 
 
 
--- Paramos aqui:
-https://learn.microsoft.com/pt-br/training/modules/use-pages-routing-layouts-control-blazor-navigation/3-exercise-change-navigation-blazor-using-page-directive?ns-enrollment-type=learningpath&ns-enrollment-id=learn.aspnet.build-blazor-webapps
-
-
 ## 13. 16/05/2023 - Continuação Blazor > WorkShop Pizzaria
 - **[Gravação da Aula]** 
 - **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
