@@ -1,5 +1,6 @@
 namespace BlazingPizza.Tests.Services;
 
+using BlazingPizza.Model;
 using BlazingPizza.Services;
 using Xunit;
 

@@ -1,0 +1,43 @@
+@page "/fetchdata"
+@using BlazingPizza.Model.Samples;
+@using BlazingPizza.Services;
+
+
+@inject WeatherForecastService ForecastService
+
+<h1>Weather forecast</h1>
+
+<input type="number" width="2" min="0" max="@upperIndex" @onchange="ChangeForecast" value="@index" />
+
+<EditForm Model=@currentForecast>
+    <InputDate @bind-Value=currentForecast.Date></InputDate>
+    <InputNumber @bind-Value=currentForecast.TemperatureC min="-100" step="5"></InputNumber>
+    <InputText @bind-Value=currentForecast.Summary></InputText>
+</EditForm>
+
+@code {
+    private WeatherForecast[] forecasts;
+    private WeatherForecast currentForecast;
+    private int index = 0;
+    private int upperIndex = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        currentForecast = forecasts[index];
+        upperIndex = forecasts.Count() - 1;
+    }
+
+    private async Task ChangeForecast(ChangeEventArgs e)
+    {
+        index = int.Parse(e.Value as string);
+        if (index <= upperIndex && index >= 0)
+        {
+            currentForecast = forecasts[index];
+        }
+    }
+}
+
+
+
+

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace BlazingPizza
+namespace BlazingPizza.Model
 {
     /// <summary>
     /// Represents a customized pizza as part of an order
@@ -28,7 +28,7 @@ namespace BlazingPizza
 
         public decimal GetBasePrice()
         {
-            return ((decimal)Size / (decimal)DefaultSize) * Special.BasePrice;
+            return Size / (decimal)DefaultSize * Special.BasePrice;
         }
 
         public decimal GetTotalPrice()

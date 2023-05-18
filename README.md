@@ -127,3 +127,13 @@
 https://learn.microsoft.com/pt-br/training/modules/blazor-improve-how-forms-work/2-attach-csharp-code-dom-events-blazor-event-handlers
 
 - O professor ficou de verificar o Google Analytics 
+
+
+## 14. 18/05/2023 - Continuação Blazor > WorkShop Pizzaria
+- **[Gravação da Aula]** https://youtu.be/MthA41aFUTM
+- **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
+- **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
+- Anexar código C# a eventos DOM com manipuladores de eventos Blazor
+- Validação de formulários com Blazor
+- Criar componentes interativos
+- Publicar esse modelo

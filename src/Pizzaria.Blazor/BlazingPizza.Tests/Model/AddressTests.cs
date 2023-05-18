@@ -1,7 +1,6 @@
 using Xunit;
-using BlazingPizza;
 
-namespace BlazingPizza.Tests;
+namespace BlazingPizza.Tests.Model;
 
 public class AddressTests
 {
