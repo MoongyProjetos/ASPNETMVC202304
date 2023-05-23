@@ -138,7 +138,9 @@ https://learn.microsoft.com/pt-br/training/modules/blazor-improve-how-forms-work
 
 
 ## 15. 23/05/2023 - Continuação Blazor > WorkShop Pizzaria
-- **[Gravação da Aula]** 
+- **[Gravação da Aula]** https://youtu.be/iEcMCjydZA4
 - **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
 - **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
 - Workshop avançado: https://github.com/dotnet-presentations/blazor-workshop/
+- Sonar: https://sonarcloud.io/project/overview?id=learn-blazor-tutorial
+- https://webapp-blazor-learn-uks-007.azurewebsites.net/ =<exemplo da APP>

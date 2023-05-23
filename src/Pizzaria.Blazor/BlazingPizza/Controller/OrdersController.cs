@@ -2,11 +2,13 @@ namespace BlazingPizza.Controller;
 
 using BlazingPizza.Data;
 using BlazingPizza.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 [Route("orders")]
 [ApiController]
+[Authorize]
 public class OrdersController : ControllerBase
 {
     private readonly PizzaStoreContext _db;

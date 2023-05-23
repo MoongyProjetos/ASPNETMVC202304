@@ -1,5 +1,6 @@
 using BlazingPizza.Data;
 using BlazingPizza.Services;
+using Microsoft.AspNetCore.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddHttpClient();
 builder.Services.AddSqlite<PizzaStoreContext>("Data Source=data/pizza.db");
 builder.Services.AddScoped<OrderState>();
 builder.Services.AddSingleton<WeatherForecastService>();
+
 
 var app = builder.Build();
 
