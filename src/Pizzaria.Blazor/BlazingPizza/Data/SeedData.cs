@@ -62,6 +62,7 @@ public static class SeedData
                 Description = "Traditional Italian pizza with tomatoes and basil",
                 BasePrice = 9.99m,
                 ImageUrl = "img/pizzas/margherita.jpg",
+                FixedSize = 24
             },
         };
         db.Specials.AddRange(specials);

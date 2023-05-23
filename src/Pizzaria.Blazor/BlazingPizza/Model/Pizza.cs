@@ -26,10 +26,8 @@ namespace BlazingPizza.Model
 
         public List<PizzaTopping> Toppings { get; set; }
 
-        public decimal GetBasePrice()
-        {
-            return Size / (decimal)DefaultSize * Special.BasePrice;
-        }
+        public decimal GetBasePrice() => Special is { FixedSize: not null } ?
+            Special.BasePrice : (decimal)Size / DefaultSize * Special?.BasePrice ?? 1;
 
         public decimal GetTotalPrice()
         {

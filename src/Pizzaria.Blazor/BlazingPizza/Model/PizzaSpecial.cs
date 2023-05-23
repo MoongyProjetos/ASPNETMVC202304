@@ -27,4 +27,6 @@ public class PizzaSpecial
     public string GetFormattedBasePrice() => BasePrice.ToString("0.00");
 
     public DateTime CreatedDate { get; set; } = DateTime.Now;
+
+    public int? FixedSize { get; set; }
 }

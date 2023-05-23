@@ -135,3 +135,10 @@
 
 - Paramos aqui: 
 https://learn.microsoft.com/pt-br/training/modules/blazor-improve-how-forms-work/7-exercise-add-server-client-side-data-validation-address-form
+
+
+## 15. 23/05/2023 - Continuação Blazor > WorkShop Pizzaria
+- **[Gravação da Aula]** 
+- **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
+- **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
+- Workshop avançado: https://github.com/dotnet-presentations/blazor-workshop/
