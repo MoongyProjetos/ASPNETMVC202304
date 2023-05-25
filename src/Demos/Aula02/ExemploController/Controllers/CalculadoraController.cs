@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ExemploController.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ExemploController.Controllers
 {
@@ -31,11 +33,28 @@ namespace ExemploController.Controllers
             return valor.valorA / valor.valorB;
         }
 
+
+        [Authorize]        
         public int Multiplicar(int a, int b)
         {
+            Console.WriteLine($"{DateTime.Now} - Usuario chamou o método");
+            ///
+            ///
+
+
+            Console.WriteLine($"{DateTime.Now} - Método X terminou");
+
+
             return a * b;
         }
 
+        ///www.minhaapp.pt/ <summary>
+        /// www.minhaapp.pt/calculadora/pagina/
+        /// www.minhaapp.pt/batata
+        /// </summary>
+        /// <returns></returns>("batata")]
+        /// 
+        [MeuLogger]        
         public IActionResult Pagina()
         {
             ViewBag.Conteudo = DateTime.Now.ToString();

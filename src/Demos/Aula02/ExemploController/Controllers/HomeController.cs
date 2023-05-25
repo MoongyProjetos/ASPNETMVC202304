@@ -13,11 +13,15 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+
+    [MeuLogger]
     public IActionResult Index()
     {
         return View();
     }
 
+
+    [MeuLogger]
     public IActionResult Privacy()
     {
         return View();

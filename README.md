@@ -74,11 +74,8 @@
 
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula09
 
-## 10. 06/05/2023 - Componentes e continuação das Views
-- **[Gravação da Aula]** Ops... Vídeo Corrompido
-- **[Respositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula10
 
-## 11. 09/05/2023 - Introdução ao Blazor
+## 10. 09/05/2023 - Introdução ao Blazor
 - **[Gravação da Aula]** https://youtu.be/725I7Fwrk9I
 - **[Material Base]** https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro
 - https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/
@@ -91,7 +88,7 @@
 - https://sourcemaking.com/design_patterns
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula11 
 
-## 12. 11/05/2023 - Continuação Blazor > WorkShop Pizzaria
+## 11. 11/05/2023 - Continuação Blazor > WorkShop Pizzaria
 - **[Gravação da Aula]** https://youtu.be/4GCBHqwFJCY
 - **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
 - **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
@@ -101,7 +98,7 @@
 - **[Repositório]** https://github.com/MoongyProjetos/ASPNETMVC202304/tree/main/src/Demos/Aula12 
 
 
-## 13. 16/05/2023 - Continuação Blazor > WorkShop Pizzaria
+## 12. 16/05/2023 - Continuação Blazor > WorkShop Pizzaria
 - **[Gravação da Aula]** https://youtu.be/3Lcrog5NBGA
 - **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
 - **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
@@ -124,7 +121,7 @@
 > **Importante:_**  O Blazor mantém sua própria representação do DOM (Modelo de Objeto do Documento) como uma árvore de renderização virtual. Conforme a estrutura da página muda, o Blazor gera uma nova árvore de renderização que contém as diferenças. Quando as alterações são concluídas, o Blazor itera por meio dessas diferenças para atualizar a interface do usuário exibida pelo Navegador e a versão do Navegador do DOM usada pelo JavaScript. Se o código JavaScript modificar elementos do DOM, a representação Blazor poderá não corresponder mais ao estado atual. Isso pode resultar em comportamento inesperado e, possivelmente, introduzir riscos de segurança.
 
 
-## 14. 18/05/2023 - Continuação Blazor > WorkShop Pizzaria
+## 13. 18/05/2023 - Continuação Blazor > WorkShop Pizzaria
 - **[Gravação da Aula]** https://youtu.be/MthA41aFUTM
 - **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
 - **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
@@ -137,10 +134,16 @@
 https://learn.microsoft.com/pt-br/training/modules/blazor-improve-how-forms-work/7-exercise-add-server-client-side-data-validation-address-form
 
 
-## 15. 23/05/2023 - Continuação Blazor > WorkShop Pizzaria
+## 14. 23/05/2023 - Continuação Blazor > WorkShop Pizzaria
 - **[Gravação da Aula]** https://youtu.be/iEcMCjydZA4
 - **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/
 - **[PizzariaBlazor]** https://webapp-blazor-learn-uks-007.azurewebsites.net/
 - Workshop avançado: https://github.com/dotnet-presentations/blazor-workshop/
 - Sonar: https://sonarcloud.io/project/overview?id=learn-blazor-tutorial
 - https://webapp-blazor-learn-uks-007.azurewebsites.net/ =<exemplo da APP>
+
+
+
+## 15. 25/05/2023 - Revisão Geral
+- **[Gravação da Aula]** https://youtu.be/VWpicAh5JEE
+- **[Material Base]** Workshop: https://learn.microsoft.com/pt-br/training/paths/build-web-apps-with-blazor/

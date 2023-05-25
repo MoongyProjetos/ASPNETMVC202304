@@ -10,7 +10,8 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddHttpClient();
 builder.Services.AddSqlite<PizzaStoreContext>("Data Source=data/pizza.db");
 builder.Services.AddScoped<OrderState>();
-builder.Services.AddSingleton<WeatherForecastService>();
+
+builder.Services.AddSingleton<IWeatherForecastService, WeatherForecastService>();
 
 
 var app = builder.Build();
@@ -39,5 +40,6 @@ using (var scope = scopeFactory.CreateScope())
         SeedData.Initialize(db);
     }
 }
+
 
 app.Run();
